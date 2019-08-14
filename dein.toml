@@ -48,3 +48,11 @@ repo = 'joshdick/onedark.vim'
 hook_add = '''
   colorscheme onedark
 '''
+[[plugins]]
+repo = 'tpope/vim-surround'
+
+[[plugins]]
+repo = 'tpope/vim-repeat'
+
+[[plugins]]
+repo ='vim-airline/vim-airline' 

@@ -6,6 +6,13 @@ set shiftwidth=2
 set expandtab
 set splitright
 set clipboard=unnamed
+inoremap <C-h> <Left>
+inoremap <C-j> <Down>
+inoremap <C-k> <Up>
+inoremap <C-l> <Right>
+inoremap <C-o> <Esc>o
+noremap <S-h> ^
+noremap <S-l> $
 set hls
 
 if &compatible

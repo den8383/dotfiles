@@ -25,3 +25,10 @@ hook_add = '''
   source ~/.config/nvim/plugins/seiya_rc.vim
 '''
 n_cmd = ['SeiyaEnablr']
+
+[[plugins]]
+repo = 'zchee/deoplete-jedi'
+on_ft = 'python'
+hook_add = '''
+  source ~/.config/nvim/plugins/deoplete-jedi.vim
+'''

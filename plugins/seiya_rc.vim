@@ -1,2 +1,3 @@
-command! Clear :SeiyaEnable
-command! NoClear :SeiyaDisable
+command! Permeate :SeiyaEnable
+command! NoPermeate :SeiyaDisable
+let g:seiya_auto_enable=1

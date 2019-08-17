@@ -57,3 +57,9 @@ repo = 'tpope/vim-commentary'
 
 [[plugins]]
 repo = 'thinca/vim-quickrun'
+
+[[plugins]]
+repo = 'jonathanfilip/vim-lucius' 
+hook_add = '''
+  source ~/.config/nvim/plugins/vim-lucius.vim
+'''

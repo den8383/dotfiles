@@ -5,7 +5,6 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 set splitright
-set clipboard+=unnamed
 inoremap <C-h> <Left>
 inoremap <C-j> <Down>
 inoremap <C-k> <Up>

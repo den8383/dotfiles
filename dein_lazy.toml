@@ -23,8 +23,9 @@ hook_add = '''
 repo = 'miyakogi/seiya.vim'
 hook_add = '''
   source ~/.config/nvim/plugins/seiya_rc.vim
+  let g:seiya_auto_enable=1
 '''
-n_cmd = ['SeiyaEnablr']
+on_cmd = ['Permeate ']
 
 [[plugins]]
 repo = 'zchee/deoplete-jedi'

@@ -63,3 +63,10 @@ repo = 'jonathanfilip/vim-lucius'
 hook_add = '''
   source ~/.config/nvim/plugins/vim-lucius.vim
 '''
+[[plugins]]
+repo = 'miyakogi/seiya.vim'
+hook_add = '''
+  source ~/.config/nvim/plugins/seiya_rc.vim
+'''
+on_cmd = ['Permeate ']
+

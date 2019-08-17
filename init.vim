@@ -15,6 +15,7 @@ noremap <S-l> $
 set hls
 set clipboard=unnamedplus
 
+
 if &compatible
   set nocompatible
 endif

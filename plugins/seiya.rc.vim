@@ -12,3 +12,5 @@ function! Penetrate()
     return g:seiya_auto_enable
 
 endfunction
+
+command! Penetrate call Penetrate()

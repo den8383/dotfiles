@@ -66,3 +66,9 @@ repo = 'miyakogi/seiya.vim'
 hook_add = '''
   source ~/.config/nvim/plugins/seiya.rc.vim
 '''
+
+[[plugins]]
+repo = 'simeji/winresizer'
+hook_add = '''
+  source ~/.config/nvim/plugins/winresizer.vim
+'''

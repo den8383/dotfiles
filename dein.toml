@@ -28,6 +28,11 @@ repo = 'Shougo/denite.nvim'
 hook_add = '''
   source ~/.config/nvim/plugins/denite.vim
 '''
+[[plugins]]
+repo = 'thinca/vim-quickrun'
+hook_add = '''
+  source ~/.config/nvim/plugins/vim-quickrun.vim
+'''
 
 [[plugins]]
 repo = 'osyo-manga/vim-anzu'

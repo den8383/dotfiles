@@ -77,3 +77,13 @@ repo = 'simeji/winresizer'
 hook_add = '''
   source ~/.config/nvim/plugins/winresizer.vim
 '''
+
+[[plugins]]
+repo = 'tyru/open-browser.vim'
+hook_add = '''  
+  let g:openbrowser_browser_commands = [ {'name': 'google-chrome-stable',  'args': ['{browser}', '{uri}']} ]
+'''
+
+
+
+

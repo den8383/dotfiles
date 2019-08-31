@@ -26,3 +26,8 @@ on_ft = 'python'
 hook_add = '''
   source ~/.config/nvim/plugins/deoplete-jedi.vim
 '''
+
+[[plugins]]
+repo = 'iamcco/markdown-preview.nvim'
+on_ft = ['markdown', 'pandoc.markdown', 'rmd','html']
+build = 'cd app & yarn install'

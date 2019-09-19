@@ -1,3 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =1
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/go/ml/chainer/tutorial/exercises'
+let g:netrw_dirhist_4='/home/go/ml/chainer/tutorial/exercises/intro_trainer'
+let g:netrw_dirhist_3='/home/go/ml/chainer/tutorial/exercises'
+let g:netrw_dirhist_2='/home/go/research/project/pre_learning_data/predata'
 let g:netrw_dirhist_1='/home/go/research/project/pre_learning_data'

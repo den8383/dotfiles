@@ -6,6 +6,9 @@ repo = 'tpope/vim-endwise'
 
 [[plugins]]
 repo = 'Townk/vim-autoclose'
+hook_add = '''
+  source ~/.config/nvim/plugins/vim-autoclose.vim
+'''
 
 
 [[plugins]]
@@ -61,11 +64,11 @@ repo ='vim-airline/vim-airline'
 repo = 'tpope/vim-commentary'
 
 
-#[[plugins]]
-#repo = 'jonathanfilip/vim-lucius' 
-#hook_add = '''
-#  source ~/.config/nvim/plugins/vim-lucius.vim
-#'''
+[[plugins]]
+repo = 'jonathanfilip/vim-lucius' 
+hook_add = '''
+  source ~/.config/nvim/plugins/vim-lucius.vim
+'''
 [[plugins]]
 repo = 'miyakogi/seiya.vim'
 hook_add = '''
@@ -85,7 +88,8 @@ hook_add = '''
 '''
 
 
-
-
 [[plugins]]
-repo = 'Shougo/dein.vim'
+repo = 'tomasr/molokai' 
+hook_add = '''
+  source ~/.config/nvim/plugins/molokai.vim
+'''

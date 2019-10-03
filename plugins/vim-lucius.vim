@@ -1,2 +1,2 @@
-colorscheme lucius
+:colorscheme lucius
 

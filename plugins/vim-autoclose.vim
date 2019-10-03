@@ -1,0 +1,2 @@
+inoremap ' ''<LEFT>
+inoremap " ""<LEFT>

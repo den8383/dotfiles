@@ -87,9 +87,9 @@ hook_add = '''
   let g:openbrowser_browser_commands = [ {'name': 'google-chrome-stable',  'args': ['{browser}', '{uri}']} ]
 '''
 
-
 [[plugins]]
-repo = 'tomasr/molokai' 
+repo = 'jonathanfilip/vim-lucius' 
 hook_add = '''
-  source ~/.config/nvim/plugins/molokai.vim
+  set background=dark
+  source ~/.config/nvim/plugins/vim-lucius.vim
 '''

@@ -1,2 +1,2 @@
 inoremap ' ''<LEFT>
-inoremap " ""<LEFT>
+inoremap " ""<RIGHT>

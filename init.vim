@@ -18,6 +18,7 @@ set clipboard=unnamedplus
 
 
 
+
 if &compatible
   set nocompatible
 endif

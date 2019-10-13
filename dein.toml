@@ -93,3 +93,6 @@ hook_add = '''
   set background=dark
   source ~/.config/nvim/plugins/vim-lucius.vim
 '''
+
+[[plugins]]
+repo = 'Yggdroot/indentLine'

@@ -46,3 +46,8 @@ hook_add = '''
   source ~/.config/nvim/plugins/vim-auto-save.vim
 '''
 
+[[plugins]]
+repo = 'udalov/kotlin-vim'
+on_ft = ['kotlin']
+hook_add = '''
+'''

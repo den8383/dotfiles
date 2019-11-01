@@ -28,7 +28,7 @@ hook_add = '''
 '''
 
 [[plugins]]
-repo = 'iamcco/markdown-preview.nvim'
+repo = 'iamcco/markdown-preview.vim'
 on_ft = ['markdown', 'pandoc.markdown', 'rmd']
 build = 'cd app & yarn install'
 

@@ -1,8 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_cnt =7
 let g:netrw_dirhist_1='/home/go/Desktop'
 let g:netrw_dirhist_2='/home/go'
 let g:netrw_dirhist_3='/home/go/research/project/pre_learning_data/predata/src'
 let g:netrw_dirhist_4='/home/go/ml/tensorflow/Regression_predict_fuel_efficiency'
 let g:netrw_dirhist_5='/home/go/research/Predata/src'
 let g:netrw_dirhist_6='/home/go/docker-comoses'
+let g:netrw_dirhist_7='/home/go/docker-comoses/build/ubuntu'

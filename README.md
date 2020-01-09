@@ -1,5 +1,5 @@
 ```
-nvim
+$ nvim
 ```
 ```
 :DeinPackageInstall
@@ -8,5 +8,5 @@ nvim
 :q
 ```
 ```
-nvim
+$ nvim
 ```

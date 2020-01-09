@@ -17,6 +17,12 @@ set hls
 set clipboard=unnamedplus
 
 
+function! DeinPackageInstall()
+  :!curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > ~/.config/nvim/installer.sh
+  :!sh ~/.config/nvim/installer.sh ~/.cache/dein
+endfunction
+command! DeinPackageInstall call DeinPackageInstall() 
+
 
 
 if &compatible
@@ -37,3 +43,5 @@ syntax enable
 
 :command UP UpdateRemotePlugins
 
+
+command! Penetrate call Penetrate()

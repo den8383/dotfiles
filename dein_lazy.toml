@@ -10,6 +10,7 @@ repo = 'scrooloose/nerdtree'
 hook_add = '''
   source ~/.config/nvim/plugins/nerdtree.vim
 '''
+
 [[plugins]]
 repo = 'Shougo/neoinclude.vim'
 on_ft = ['c', 'cpp']
@@ -28,13 +29,18 @@ hook_add = '''
 '''
 
 [[plugins]]
+repo  = 'phpactor/phpactor'
+on_ft = ['php']
+build = 'composer install'
+
+[[plugins]]
 repo = 'iamcco/markdown-preview.vim'
 on_ft = ['markdown', 'pandoc.markdown', 'rmd']
 build = 'cd app & yarn install'
 
 [[plugins]]
 repo = 'mattn/emmet-vim'
-on_ft = ['html']
+on_ft = ['html','php']
 hook_add = '''
   source ~/.config/nvim/plugins/emmet-vim.vim
 '''

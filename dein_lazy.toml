@@ -40,7 +40,7 @@ build = 'cd app & yarn install'
 
 [[plugins]]
 repo = 'mattn/emmet-vim'
-on_ft = ['html','php']
+on_ft = ['html','eruby','php']
 hook_add = '''
   source ~/.config/nvim/plugins/emmet-vim.vim
 '''

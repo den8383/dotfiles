@@ -40,7 +40,7 @@ build = 'cd app & yarn install'
 
 [[plugins]]
 repo = 'mattn/emmet-vim'
-on_ft = ['html','eruby','php']
+on_ft = ['html','eruby','php', 'javascript']
 hook_add = '''
   source ~/.config/nvim/plugins/emmet-vim.vim
 '''
@@ -56,4 +56,31 @@ hook_add = '''
 repo = 'udalov/kotlin-vim'
 on_ft = ['kotlin']
 hook_add = '''
+'''
+
+
+[[plugins]]
+repo = 'pangloss/vim-javascript'
+on_ft = ['javascript', 'javascript.jsx']
+
+[[plugins]]
+repo = 'maxmellon/vim-jsx-pretty'
+on_ft = ['javascript', 'javascript.jsx']
+
+[[plugins]]
+repo = 'alampros/vim-styled-jsx'
+on_ft = ['javascript', 'javascript.jsx']
+
+[[plugins]]
+repo = 'moll/vim-node'
+on_ft = ['javascript']
+
+[[plugins]]
+repo = 'w0rp/ale.git'
+on_source = ['lightline.vim']
+hook_add = '''
+  let g:ale_statusline_format = ['⨉ %d', '⚠ %d', '']
+  let g:ale_echo_msg_format = '[%linter%] %s'
+  nmap <silent> <C-k> <Plug>(ale_previous_wrap)
+  nmap <silent> <C-j> <Plug>(ale_next_wrap)
 '''

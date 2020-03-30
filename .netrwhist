@@ -1,7 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/home/go/test/testrails/rails6_docker_template/blog/app/controllers/concerns'
-let g:netrw_dirhist_2='/home/go/test/testrails/rails6_docker_template/Dockerfiles'
-let g:netrw_dirhist_3='/home/go/railsopen/mitakalab-twitter/app'
-let g:netrw_dirhist_4='/home/go/railsopen/mitakalab-twitter/app/controllers/concerns'
-let g:netrw_dirhist_5='/home/go/test/rails5/docker'
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/go/app-rails_tweet/tweetApp/app/views/users'
+let g:netrw_dirhist_2='/home/go/app-rails-tweet/tweetApp/app/views/layouts'
+let g:netrw_dirhist_3='/home/go/app-react/Dockerfiles'
+let g:netrw_dirhist_4='/home/go/gatsby-blog/my-blog/public/page-data'
+let g:netrw_dirhist_5='/home/go/railsopen/portfolio/app/views'
+let g:netrw_dirhist_6='/home/go/railsopen/portfolio/app/views/boards'

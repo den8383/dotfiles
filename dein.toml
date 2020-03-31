@@ -5,11 +5,9 @@ repo = 'Shougo/dein.vim'
 repo = 'tpope/vim-endwise'
 
 [[plugins]]
-repo = 'Townk/vim-autoclose'
+repo = 'cohama/lexima.vim'
 hook_add = '''
-  source ~/.config/nvim/plugins/vim-autoclose.vim
 '''
-
 
 [[plugins]]
 repo = 'w0rp/ale'

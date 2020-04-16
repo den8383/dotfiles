@@ -34,13 +34,13 @@ on_ft = ['php']
 build = 'composer install'
 
 [[plugins]]
-repo = 'iamcco/markdown-preview.vim'
+repo = 'iamcco/markdown-preview.nvim'
 on_ft = ['markdown', 'pandoc.markdown', 'rmd']
-build = 'cd app & yarn install'
+build = 'sh -c "cd app & yarn install & npm install"'
 
 [[plugins]]
 repo = 'mattn/emmet-vim'
-on_ft = ['html','eruby','php', 'javascript']
+on_ft = ['html','eruby','php', 'javascript', 'javascriptreact']
 hook_add = '''
   source ~/.config/nvim/plugins/emmet-vim.vim
 '''

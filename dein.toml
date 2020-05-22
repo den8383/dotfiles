@@ -102,3 +102,6 @@ rev = 'release'
 on_i = 1
 merged = '0'
 hook_source = 'source ~/.config/nvim/plugins/coc.nvim'
+
+[[plugins]]
+repo = 'Shougo/neocomplete.vim'

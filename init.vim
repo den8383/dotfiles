@@ -16,6 +16,9 @@ noremap <S-l> $
 set hls
 set clipboard=unnamedplus
 
+"Erase later
+autocmd BufRead,BufNewFile *.php setfiletype html
+
 
 function! DeinPackageInstall()
   :!curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > ~/.config/nvim/installer.sh

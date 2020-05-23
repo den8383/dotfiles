@@ -40,7 +40,7 @@ build = 'sh -c "cd app & yarn install & npm install"'
 
 [[plugins]]
 repo = 'mattn/emmet-vim'
-on_ft = ['html','eruby','php', 'javascript', 'javascriptreact']
+on_ft = ['html','eruby','php', 'javascript', 'javascriptreact', 'vue']
 hook_add = '''
   source ~/.config/nvim/plugins/emmet-vim.vim
 '''
@@ -74,6 +74,13 @@ on_ft = ['javascript', 'javascript.jsx']
 [[plugins]]
 repo = 'moll/vim-node'
 on_ft = ['javascript']
+
+[[plugins]]
+repo = 'posva/vim-vue'
+on_ft = ['vue']
+hook_add = '''
+  source ~/.config/nvim/plugins/vim-vue.vim
+'''
 
 [[plugins]]
 repo = 'w0rp/ale.git'

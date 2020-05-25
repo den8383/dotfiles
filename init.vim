@@ -2,8 +2,8 @@ set runtimepath+=~/.cache/dein/repos/github.com/Shougo/dein.vim
 set number
 set title
 set autoindent
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
 set expandtab
 set splitright
 inoremap <C-h> <Esc>ha

@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =1
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/home/go/calendar-app/project/resources/js/components/calendar'
 let g:netrw_dirhist_1='/home/go/calendar-app/project/resources'
 let g:netrw_dirhist_0='/home/go/calendar-app/project/resources/views/layouts'
 let g:netrw_dirhist_9='/home/go/calendar-app/.git'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_6='/home/go/docker-laravel/docker/php'
 let g:netrw_dirhist_5='/home/go/docker-laravel/project/app/Http/Controllers'
 let g:netrw_dirhist_4='/home/go/todo-app/project/resources/views/todos'
 let g:netrw_dirhist_3='/home/go/laravel-tutorial/sample'
-let g:netrw_dirhist_2='/etc/systemd'

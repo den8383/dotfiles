@@ -45,12 +45,12 @@ hook_add = '''
   source ~/.config/nvim/plugins/emmet-vim.vim
 '''
 
-[[plugins]]
-repo = 'vim-scripts/vim-auto-save'
-on_ft = ['html']
-hook_add = '''
-  source ~/.config/nvim/plugins/vim-auto-save.vim
-'''
+#[[plugins]]
+#repo = 'vim-scripts/vim-auto-save'
+#on_ft = ['html']
+#hook_add = '''
+#  source ~/.config/nvim/plugins/vim-auto-save.vim
+#'''
 
 [[plugins]]
 repo = 'udalov/kotlin-vim'

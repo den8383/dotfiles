@@ -11,3 +11,12 @@ function! s:show_documentation()
     call CocAction('doHover')
   endif
 endfunction
+
+function! CocLangInstall()
+  CocInstall coc-tsserver
+  CocInstall coc-html
+  CocInstall coc-python
+endfunction
+
+command! CocLangInstall call CocLangInstall()
+

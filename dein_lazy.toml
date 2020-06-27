@@ -20,14 +20,6 @@ hook_add = '''
 '''
 
 
-
-[[plugins]]
-repo = 'zchee/deoplete-jedi'
-on_ft = 'python'
-hook_add = '''
-  source ~/.config/nvim/plugins/deoplete-jedi.vim
-'''
-
 [[plugins]]
 repo  = 'phpactor/phpactor'
 on_ft = ['php']

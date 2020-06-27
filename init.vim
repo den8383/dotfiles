@@ -23,6 +23,7 @@ autocmd BufRead,BufNewFile *.php setfiletype html
 function! DeinPackageInstall()
   :!curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > ~/.config/nvim/installer.sh
   :!sh ~/.config/nvim/installer.sh ~/.cache/dein
+  :q
 endfunction
 command! DeinPackageInstall call DeinPackageInstall() 
 

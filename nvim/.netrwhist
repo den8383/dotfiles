@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =2
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/den8383arfp/Work/vue-chat/chat-app/src/views'
 let g:netrw_dirhist_2='/home/den8383arfp/Code/TechTrain/roadmap/frontend'
 let g:netrw_dirhist_1='/home/den8383arfp/Code/AndroidStudioProjects/recording/app/build/tmp/kotlin-classes/debug/META-INF'
 let g:netrw_dirhist_0='/home/den8383arfp/.cache/fisher/github.com/oh-my-fish/theme-bobthefish'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_7='/home/den8383arfp/Wine/Line/src'
 let g:netrw_dirhist_6='/home/go/app-tweet'
 let g:netrw_dirhist_5='/home/go/calendar-app/project/resources/views'
 let g:netrw_dirhist_4='/home/go/calendar-app/project/app/Http/Controllers'
-let g:netrw_dirhist_3='/home/go/app-tweet/.git'

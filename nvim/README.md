@@ -1,6 +1,6 @@
 #install neovim
 ```
-sudo apt instal curl
+sudo apt install curl
 sudo apt install xsel
 
 sudo apt-get install software-properties-common

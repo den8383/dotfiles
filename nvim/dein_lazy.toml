@@ -32,7 +32,7 @@ build = 'sh -c "cd app & yarn install & npm install"'
 
 [[plugins]]
 repo = 'mattn/emmet-vim'
-on_ft = ['html','eruby','php', 'javascript', 'javascriptreact', 'vue']
+on_ft = ['html','eruby','php', 'javascript', 'javascriptreact', 'vue', 'typescriptreact']
 hook_add = '''
   source ~/.config/nvim/plugins/emmet-vim.vim
 '''

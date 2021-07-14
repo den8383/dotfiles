@@ -95,3 +95,13 @@ on_ft = ['dart']
 hook_add = '''
   source ~/.config/nvim/plugins/vim-flutter.vim
 '''
+
+
+
+[[plugins]]
+repo = 'fleischie/vim-styled-components'
+on_ft = ['javascript', 'javascript.jsx', 'typescriptreact']
+
+[[plugins]]
+repo = 'peitalin/vim-jsx-typescript'
+on_ft = ['javascript', 'javascript.jsx', 'typescriptreact']
